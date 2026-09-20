@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-7 max-w-2xl text-xl leading-8 text-ink">
-          NSF Graduate Research Fellow and incoming Physics Ph.D. student at
+          NSF Graduate Research Fellow and Physics Ph.D. student at
           UC Irvine.
         </p>
 
