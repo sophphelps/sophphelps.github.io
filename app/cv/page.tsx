@@ -66,11 +66,28 @@ const researchAndWork: CVEntry[] = [
 
 const teachingAndService: CVEntry[] = [
   {
+    institution: "University of California, Irvine",
+    dates: "Sept. 2026 – Present",
+    position: "Graduate Teaching Assistant",
+    location: "Irvine, CA",
+    note: (
+      <>
+        <strong>Course:</strong> Physics 7C: Classical Mechanics.
+      </>
+    ),
+  },
+  {
     institution: "UCLA Learning Assistant Program",
     dates: "April 2024 – June 2026",
-    position: "Pedagogy Head Learning Assistant; Course Coordinator; Learning Assistant",
+    position:
+      "Pedagogy Head Learning Assistant; Course Coordinator; Learning Assistant",
     location: "Los Angeles, CA",
-    note: <><strong>Courses:</strong> Physics 1C (Spring 2024); Physics 5A (Fall 2024 and Spring 2026); Math 31A (Winter 2026).</>,
+    note: (
+      <>
+        <strong>Courses:</strong> Physics 1C (Spring 2024); Physics 5A (Fall
+        2024 and Spring 2026); Math 31A (Winter 2026).
+      </>
+    ),
   },
   {
     institution: "MIPA, University of California, Los Angeles",
@@ -128,7 +145,7 @@ export default function CVPage() {
               linkedin.com/in/sophia-phelps-6487912b7
             </a>
             <span aria-hidden="true">◇</span>
-            <span>Los Angeles, CA</span>
+            <span>Irvine, CA</span>
           </address>
         </header>
 
