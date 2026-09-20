@@ -30,6 +30,26 @@ export default function TeachingPage() {
         <div className="mt-8 max-w-3xl space-y-8">
           <article>
             <h3 className="font-serif text-2xl font-semibold text-ink">
+              UC Irvine Graduate Teaching Assistant
+            </h3>
+
+            <p className="mt-3 leading-7 text-muted">
+              As a Physics Ph.D. student at UC Irvine, I serve as a graduate
+              teaching assistant for Physics 7C: Classical Mechanics. In this
+              role, I work with undergraduate students as they develop their
+              problem-solving skills and build a stronger conceptual
+              understanding of mechanics.
+            </p>
+
+            <p className="mt-3 leading-7 text-muted">
+              I am excited to continue developing my teaching style in graduate
+              school and to build on the student-centered teaching practices I
+              developed through my previous teaching and mentorship experiences.
+            </p>
+          </article>
+
+          <article className="border-t border-line pt-8">
+            <h3 className="font-serif text-2xl font-semibold text-ink">
               UCLA Learning Assistant Program
             </h3>
 
@@ -80,18 +100,6 @@ export default function TeachingPage() {
               and physics, from middle school through college. Since every
               student learns differently, I try to adjust how I explain things
               based on what works best for them.
-            </p>
-          </article>
-
-          <article className="border-t border-line pt-8">
-            <h3 className="font-serif text-2xl font-semibold text-ink">
-              UC Irvine
-            </h3>
-
-            <p className="mt-3 leading-7 text-muted">
-              As a Physics Ph.D. student at UC Irvine, I will continue teaching
-              as a graduate teaching assistant. I am looking forward to gaining
-              more experience and continuing to develop my teaching style.
             </p>
           </article>
         </div>
