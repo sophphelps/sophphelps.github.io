@@ -34,17 +34,10 @@ export default function TeachingPage() {
             </h3>
 
             <p className="mt-3 leading-7 text-muted">
-              As a Physics Ph.D. student at UC Irvine, I serve as a graduate
-              teaching assistant for Physics 7C: Classical Mechanics. In this
+              I serve as a graduate teaching assistant for Physics 7C: Classical Mechanics. In this
               role, I work with undergraduate students as they develop their
               problem-solving skills and build a stronger conceptual
               understanding of mechanics.
-            </p>
-
-            <p className="mt-3 leading-7 text-muted">
-              I am excited to continue developing my teaching style in graduate
-              school and to build on the student-centered teaching practices I
-              developed through my previous teaching and mentorship experiences.
             </p>
           </article>
 
