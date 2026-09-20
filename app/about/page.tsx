@@ -17,7 +17,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="mt-6 text-lg leading-8 text-muted">
-          Hi, I’m Sophia! I’m an incoming Physics Ph.D. student and NSF Graduate
+          Hi, I’m Sophia! I’m a Physics Ph.D. student and NSF Graduate
           Research Fellow at UC Irvine.
         </p>
       </header>
