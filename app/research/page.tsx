@@ -12,10 +12,10 @@ export default function ResearchPage() {
         </h1>
 
         <p className="mt-6 text-lg leading-8 text-muted">
-          I study how magnetic activity on stars can make it harder to detect
-          small planets. Starspots, magnetic regions, and other changing
-          features on a star&apos;s surface can produce signals that resemble
-          or hide the signal of an orbiting planet.
+          I study how magnetic activity on stars affects the search for
+          exoplanets. Variability caused by starspots, magnetic regions, and
+          other features on a star&apos;s surface can produce signals that
+          resemble or obscure those caused by orbiting planets.
         </p>
       </header>
 
@@ -36,25 +36,26 @@ export default function ResearchPage() {
               <p>
                 At NASA&apos;s Jet Propulsion Laboratory, I analyze
                 high-resolution observations of the Sun collected with the
-                PARVI spectrograph and the SoCalSoCal solar feed at Palomar
-                Observatory. Because the Sun is the star we can study most
-                closely, it gives us a useful way to investigate how stellar
-                activity affects observations of more distant stars.
+                PARVI spectrograph and the SoCal solar feed at Palomar
+                Observatory. Because the Sun is the star we can study in the
+                greatest detail, it provides a valuable benchmark for
+                understanding the behavior of more distant stars.
               </p>
 
               <p>
                 One way to detect an exoplanet is to measure the small motion it
                 causes in its host star. As a planet orbits, its gravity pulls
-                the star slightly back and forth, causing small shifts in the
-                wavelengths of the star&apos;s light. This is known as the
-                radial velocity method.
+                the star slightly back and forth, producing subtle shifts in
+                the wavelengths of the star&apos;s light. This technique is
+                known as the radial velocity method.
               </p>
 
               <p>
-                The challenge is that activity on the star itself can also
-                change the shapes and positions of its absorption lines. These
-                changes can imitate a planet signal or make a real planet more
-                difficult to detect.
+                Detecting small planets with radial velocities requires
+                extremely precise measurements. The challenge is that activity
+                on the star itself can also alter its spectrum, creating
+                apparent velocity signals that can imitate or mask the
+                signature of a planet.
               </p>
             </div>
           </div>
@@ -77,54 +78,51 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      <section className="border-t border-line py-16">
-        <div className="max-w-3xl space-y-5 leading-7 text-muted">
-          <p>
-            My initial project focused on a strongly magnetically sensitive Fe
-            I absorption line near 1565 nanometers. I measured how the strength
-            of this line changed over time to test whether it could trace
-            magnetic activity on the Sun.
-          </p>
+      <section
+        className="border-t border-line py-16"
+        aria-labelledby="stellar-activity-heading"
+      >
+        <div className="max-w-3xl">
+          <h2
+            id="stellar-activity-heading"
+            className="font-serif text-3xl font-semibold tracking-tight text-ink"
+          >
+            Separating stellar activity from planetary signals
+          </h2>
 
-          <p>
-            I also study two nearby Fe I lines and a Ni I line in the same
-            region of the near-infrared spectrum. Comparing several lines helps
-            me determine whether they respond similarly to solar activity and
-            whether some lines are more useful activity indicators than others.
-          </p>
+          <div className="mt-6 space-y-5 leading-7 text-muted">
+            <p>
+              My research focuses on understanding how stellar magnetic
+              activity affects high-precision radial velocity measurements.
+              These activity-driven signals are often referred to as stellar
+              noise or stellar jitter and represent one of the major challenges
+              in detecting low-mass exoplanets.
+            </p>
 
-          <p>
-            More recently, I began analyzing a Mn I line near 1290 nanometers.
-            This line was identified as sensitive to stellar rotation in a
-            previous NIRPS study of M-dwarf stars. I am now investigating
-            whether it shows similar behavior in observations of the Sun.
-          </p>
+            <p>
+              I use high-resolution near-infrared spectroscopy to investigate
+              how features in the solar spectrum change as magnetic activity
+              evolves across the Sun. Studying these variations helps us better
+              understand which spectroscopic signals originate from the star
+              itself rather than from an orbiting planet.
+            </p>
 
-          <p>
-            Before measuring the stellar lines, I use Stellar-GFIT to model and
-            remove absorption caused by Earth&apos;s atmosphere, known as
-            telluric absorption. Because small atmospheric features may remain
-            after this correction, I also analyze a nearby H₂O absorption line
-            as a control. This helps me check whether the variability in the
-            stellar lines is truly coming from the Sun or whether some
-            atmospheric contamination remains.
-          </p>
+            <p>
+              The Sun is particularly useful for this work because its activity
+              and rotation can be studied far more closely than those of other
+              stars. Solar observations therefore provide a controlled way to
+              test techniques for identifying and mitigating stellar activity
+              signals before applying them to other planetary systems.
+            </p>
 
-          <p>
-            Several of the solar absorption lines show patterns near the
-            Sun&apos;s rotation period, supporting the idea that magnetically
-            sensitive near-infrared lines may help identify signals caused by
-            stellar activity. I am now extending the project to a longer set of
-            observations and comparing the behavior of the Fe I, Ni I, and Mn I
-            lines.
-          </p>
-
-          <p>
-            The broader goal of this work is to better separate signals caused
-            by stars from signals caused by planets. Improving that distinction
-            will be especially important as astronomers search for smaller,
-            potentially Earth-like exoplanets.
-          </p>
+            <p>
+              The broader goal of this work is to improve our ability to
+              distinguish stellar variability from true planetary motion.
+              Better stellar-noise mitigation will become increasingly
+              important as radial velocity surveys push toward the detection of
+              smaller, potentially Earth-like planets.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -143,9 +141,9 @@ export default function ResearchPage() {
           </h2>
 
           <p className="mt-5 leading-7 text-muted">
-            If you&apos;d like to read more about my work, check out my poster
-            presentation or journal paper, written for a general scientific
-            audience.
+            For a more detailed look at the methods and analysis behind this
+            work, you can view my research poster or read my journal paper,
+            both written for a general scientific audience.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
