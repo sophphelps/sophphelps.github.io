@@ -139,7 +139,7 @@ export default function CVPage() {
             </a>
             <span aria-hidden="true">◇</span>
             <a
-              href="https://www.linkedin.com/in/sophia-phelps-6487912b7"
+              href="https://www.linkedin.com/in/sophia-phelps"
               className="min-w-0 max-w-full break-all hover:text-accent hover:underline"
             >
               linkedin.com/in/sophia-phelps-6487912b7
