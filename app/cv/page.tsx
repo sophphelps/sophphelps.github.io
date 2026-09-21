@@ -134,15 +134,19 @@ export default function CVPage() {
             Physics Ph.D. Student, UC Irvine <span aria-hidden="true">◇</span> NSF Graduate Research Fellow
           </p>
           <address className="mt-2 flex min-w-0 flex-wrap justify-center gap-x-2 text-xs not-italic text-muted sm:text-sm">
-            <a href="mailto:phelpssophia@icloud.com" className="min-w-0 max-w-full break-all hover:text-accent hover:underline">
-              phelpssophia@icloud.com
+            <a href="mailto:phelpssn@uci.edu" className="min-w-0 max-w-full break-all hover:text-accent hover:underline">
+              phelpssn@uci.edu
+            </a>
+            <span aria-hidden="true">◇</span>
+            <a href="mailto:sophia.n.phelps@jpl.nasa.gov" className="min-w-0 max-w-full break-all hover:text-accent hover:underline">
+              sophia.n.phelps@jpl.nasa.gov
             </a>
             <span aria-hidden="true">◇</span>
             <a
               href="https://www.linkedin.com/in/sophia-phelps"
               className="min-w-0 max-w-full break-all hover:text-accent hover:underline"
             >
-              linkedin.com/in/sophia-phelps-6487912b7
+              linkedin.com/in/sophia-phelps
             </a>
             <span aria-hidden="true">◇</span>
             <span>Irvine, CA</span>
