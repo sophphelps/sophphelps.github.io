@@ -72,7 +72,7 @@ const teachingAndService: CVEntry[] = [
     location: "Irvine, CA",
     note: (
       <>
-        <strong>Course:</strong> Physics 7C: Classical Mechanics.
+        <strong>Course:</strong> Physics 7C (Fall 2026).
       </>
     ),
   },
