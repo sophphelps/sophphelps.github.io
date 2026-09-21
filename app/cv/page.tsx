@@ -197,7 +197,10 @@ export default function CVPage() {
           <h3 className="font-semibold text-ink">Oral Presentations</h3>
           <CVList>
             <li>
-              “Near-Infrared Solar Line Diagnostics of Magnetic Activity for Improved Radial Velocity Precision.” SURF@JPL Final Presentation, Pasadena, CA, June 2025.
+              "Near-Infrared Solar Lines and Magnetic Activity for Improved Radial Velocity Precision in Sun-like Stars." JPL SIP Final Presentation, Pasadena, CA, August 2026.
+            </li>
+            <li>
+              “Near-Infrared Solar Line Diagnostics of Magnetic Activity for Improved Radial Velocity Precision.” SURF@JPL Final Presentation, Pasadena, CA, August 2025.
             </li>
           </CVList>
 
