@@ -36,7 +36,7 @@ export default function ResearchPage() {
               <p>
                 At NASA&apos;s Jet Propulsion Laboratory, I analyze
                 high-resolution observations of the Sun collected with the
-                PARVI spectrograph and the SoCal solar feed at Palomar
+                PARVI spectrograph and the SoCalSoCal solar feed at Palomar
                 Observatory. Because the Sun is the star we can study in the
                 greatest detail, it provides a valuable benchmark for
                 understanding the behavior of more distant stars.
